@@ -1,0 +1,10 @@
+1. Poprawić w Total Cap podwójne deklaracje
+2. Podpiąć raporty z testów do reports
+3. Wrzucić na REPO GIT
+4. Odpalić z command line
+5. Odpalić w Jenkinsie
+6. Scheduler na Jenkinsie
+
+
+(//span[contains(text(),'Market Cap')])[1]//a
+
