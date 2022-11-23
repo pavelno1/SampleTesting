@@ -5,6 +5,6 @@
 5. Odpalić w Jenkinsie
 6. Scheduler na Jenkinsie
 
+Odpalanie z commandline:
 
-(//span[contains(text(),'Market Cap')])[1]//a
 
