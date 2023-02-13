@@ -2,16 +2,16 @@
 <testng-results ignored="4" total="8" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T00:03:41 CET" name="Testing" finished-at="2023-02-14T00:03:55 CET" duration-ms="14234">
+  <suite started-at="2023-02-14T00:22:08 CET" name="Testing" finished-at="2023-02-14T00:22:24 CET" duration-ms="16222">
     <groups>
     </groups>
-    <test started-at="2023-02-14T00:03:41 CET" name="Regression" finished-at="2023-02-14T00:03:55 CET" duration-ms="14234">
+    <test started-at="2023-02-14T00:22:08 CET" name="Regression" finished-at="2023-02-14T00:22:24 CET" duration-ms="16222">
       <class name="testcase.CheckMarketCapValue">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:03:41 CET" name="setUp" finished-at="2023-02-14T00:03:50 CET" duration-ms="8802" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:22:08 CET" name="setUp" finished-at="2023-02-14T00:22:18 CET" duration-ms="9891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CheckMarketCap()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:03:50 CET" name="CheckMarketCap" finished-at="2023-02-14T00:03:51 CET" duration-ms="703" status="FAIL">
+        <test-method signature="CheckMarketCap()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:22:18 CET" name="CheckMarketCap" finished-at="2023-02-14T00:22:18 CET" duration-ms="72" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Total Market Cap below 1T expected [true] but found [false]]]>
@@ -60,13 +60,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckMarketCap -->
-        <test-method is-config="true" signature="closeDown()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:03:55 CET" name="closeDown" finished-at="2023-02-14T00:03:55 CET" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:testcase.CheckMarketCapValue@306f16f3]" started-at="2023-02-14T00:22:24 CET" name="closeDown" finished-at="2023-02-14T00:22:24 CET" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
       </class> <!-- testcase.CheckMarketCapValue -->
       <class name="testcase.TotalCapOf10">
-        <test-method signature="SumOfTop10()[pri:0, instance:testcase.TotalCapOf10@247d8ae]" started-at="2023-02-14T00:03:52 CET" name="SumOfTop10" finished-at="2023-02-14T00:03:54 CET" duration-ms="2002" status="FAIL">
+        <test-method signature="SumOfTop10()[pri:0, instance:testcase.TotalCapOf10@247d8ae]" started-at="2023-02-14T00:22:21 CET" name="SumOfTop10" finished-at="2023-02-14T00:22:22 CET" duration-ms="1425" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Top10 Market Cap Not over 1T expected [true] but found [false]]]>
@@ -115,7 +115,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SumOfTop10 -->
-        <test-method signature="SumOfTop10Ratio()[pri:0, instance:testcase.TotalCapOf10@247d8ae]" started-at="2023-02-14T00:03:54 CET" name="SumOfTop10Ratio" finished-at="2023-02-14T00:03:55 CET" duration-ms="1425" status="FAIL">
+        <test-method signature="SumOfTop10Ratio()[pri:0, instance:testcase.TotalCapOf10@247d8ae]" started-at="2023-02-14T00:22:22 CET" name="SumOfTop10Ratio" finished-at="2023-02-14T00:22:24 CET" duration-ms="1850" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Top10 Market Cap is bigger than 80% of Total Market Cap expected [true] but found [false]]]>
@@ -166,7 +166,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- SumOfTop10Ratio -->
       </class> <!-- testcase.TotalCapOf10 -->
       <class name="testcase.CheckTop10">
-        <test-method signature="ListTop10()[pri:0, instance:testcase.CheckTop10@5f9b2141]" started-at="2023-02-14T00:03:51 CET" name="ListTop10" finished-at="2023-02-14T00:03:52 CET" duration-ms="929" status="PASS">
+        <test-method signature="ListTop10()[pri:0, instance:testcase.CheckTop10@5f9b2141]" started-at="2023-02-14T00:22:18 CET" name="ListTop10" finished-at="2023-02-14T00:22:21 CET" duration-ms="2572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListTop10 -->
