@@ -1,0 +1,10 @@
+<suite name="Testing">
+    <test name="Regression">
+        <classes>
+            <class name="testcase.CheckMarketCapValue"/>
+            <class name="testcase.CheckTop10"/>
+            <class name="testcase.FirstSampleTest"/>
+            <class name="testcase.TotalCapOf10"/>
+        </classes>
+    </test>
+</suite>

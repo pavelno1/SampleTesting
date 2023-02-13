@@ -1,0 +1,7 @@
+base\BaseTest.class
+utilities\SumLoop.class
+testcase\FirstSampleTest.class
+utilities\ReadPropertyFile.class
+testcase\CheckTop10.class
+testcase\CheckMarketCapValue.class
+testcase\TotalCapOf10.class
