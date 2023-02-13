@@ -1,8 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.227 s <<< FAILURE! - in TestSuite
-CheckMarketCap(testcase.CheckMarketCapValue)  Time elapsed: 0.085 s  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 15.591 s <<< FAILURE! - in TestSuite
+CheckMarketCap(testcase.CheckMarketCapValue)  Time elapsed: 0.729 s  <<< FAILURE!
 java.lang.AssertionError: Total Market Cap below 1T expected [true] but found [false]
 	at testcase.CheckMarketCapValue.CheckMarketCap(CheckMarketCapValue.java:39)
+
+SumOfTop10(testcase.TotalCapOf10)  Time elapsed: 2.01 s  <<< FAILURE!
+java.lang.AssertionError: Top10 Market Cap Not over 1T expected [true] but found [false]
+	at testcase.TotalCapOf10.SumOfTop10(TotalCapOf10.java:48)
+
+SumOfTop10Ratio(testcase.TotalCapOf10)  Time elapsed: 1.421 s  <<< FAILURE!
+java.lang.AssertionError: Top10 Market Cap is bigger than 80% of Total Market Cap expected [true] but found [false]
+	at testcase.TotalCapOf10.SumOfTop10Ratio(TotalCapOf10.java:59)
 

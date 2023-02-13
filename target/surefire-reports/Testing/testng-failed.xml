@@ -3,6 +3,14 @@
 <suite name="Failed suite [Testing]" verbose="0">
   <test thread-count="5" name="Regression(failed)" verbose="0">
     <classes>
+      <class name="testcase.TotalCapOf10">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeDown"/>
+          <include name="SumOfTop10Ratio"/>
+          <include name="SumOfTop10"/>
+        </methods>
+      </class> <!-- testcase.TotalCapOf10 -->
       <class name="testcase.CheckMarketCapValue">
         <methods>
           <include name="setUp"/>

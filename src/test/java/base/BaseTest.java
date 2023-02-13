@@ -26,7 +26,7 @@ public class BaseTest {
     public void setUp() throws IOException {
 
         if(driver==null){
-            FileReader fr = new FileReader("../SampleTesting/src/test/resources/configfiles/config.properties");
+            FileReader fr = new FileReader("**/src/test/resources/configfiles/config.properties");
             prop.load(fr);
         }
 
